@@ -1,0 +1,845 @@
+schemaVersion: 1
+catalogVersion: 2026.07.17.1
+profiles:
+    - family: 10-play
+      routingEntry: 10-play
+      sources:
+        - kind: domain
+          value: 10play.com.au
+          match: suffix
+    - family: 4gtv
+      routingEntry: 4gtv
+      sources:
+        - kind: domain
+          value: api2.4gtv.tv
+          match: suffix
+    - family: 7plus
+      routingEntry: 7plus
+      sources:
+        - kind: domain
+          value: 7plus.com.au
+          match: suffix
+    - family: aande-tv
+      routingEntry: aande-tv
+      sources:
+        - kind: domain
+          value: play.aetv.com
+          match: suffix
+    - family: abc-iview
+      routingEntry: abc-iview
+      sources:
+        - kind: geosite
+          value: abc
+    - family: abema
+      routingEntry: abema
+      sources:
+        - kind: geosite
+          value: abema
+    - family: acorn-tv
+      routingEntry: acorn-tv
+      sources:
+        - kind: domain
+          value: acorn.tv
+          match: suffix
+    - family: ais-play
+      routingEntry: ais-play
+      sources:
+        - kind: domain
+          value: web-tls.ais-vidnt.com
+          match: suffix
+    - family: amcplus
+      routingEntry: amcplus
+      sources:
+        - kind: geosite
+          value: amc
+    - family: amediateka
+      routingEntry: amediateka
+      sources:
+        - kind: domain
+          value: www.amediateka.ru
+          match: suffix
+    - family: animefesta
+      routingEntry: animefesta
+      sources:
+        - kind: domain
+          value: animefesta.iowl.jp
+          match: suffix
+    - family: apple
+      routingEntry: apple
+      sources:
+        - kind: geosite
+          value: apple
+    - family: bahamut
+      routingEntry: bahamut
+      sources:
+        - kind: geosite
+          value: bahamut
+    - family: bbc-iplayer
+      routingEntry: bbc-iplayer
+      sources:
+        - kind: geosite
+          value: bbc
+    - family: bilibili
+      routingEntry: bilibili
+      sources:
+        - kind: geosite
+          value: bilibili
+    - family: bing
+      routingEntry: bing
+      sources:
+        - kind: geosite
+          value: bing
+    - family: britbox
+      routingEntry: britbox
+      sources:
+        - kind: domain
+          value: www.britbox.com
+          match: suffix
+    - family: canalplus
+      routingEntry: canalplus
+      sources:
+        - kind: domain
+          value: boutique-tunnel.canalplus.com
+          match: suffix
+    - family: catchplay
+      routingEntry: catchplay
+      sources:
+        - kind: domain
+          value: sunapi.catchplay.com
+          match: suffix
+    - family: cbc-gem
+      routingEntry: cbc-gem
+      sources:
+        - kind: domain
+          value: www.cbc.ca
+          match: suffix
+    - family: channel-4
+      routingEntry: channel-4
+      sources:
+        - kind: domain
+          value: www.channel4.com
+          match: suffix
+    - family: channel-5
+      routingEntry: channel-5
+      sources:
+        - kind: domain
+          value: cassie.channel5.com
+          match: suffix
+    - family: channel-9
+      routingEntry: channel-9
+      sources:
+        - kind: domain
+          value: login.nine.com.au
+          match: suffix
+    - family: chatgpt
+      routingEntry: chatgpt
+      sources:
+        - kind: geosite
+          value: openai
+    - family: claude
+      routingEntry: claude
+      sources:
+        - kind: geosite
+          value: anthropic
+    - family: clip-tv
+      routingEntry: clip-tv
+      sources:
+        - kind: domain
+          value: cliptv.vn
+          match: suffix
+    - family: copilot
+      routingEntry: copilot
+      sources:
+        - kind: geosite
+          value: bing
+    - family: coupang-play
+      routingEntry: coupang-play
+      sources:
+        - kind: geosite
+          value: coupang
+    - family: crave
+      routingEntry: crave
+      sources: []
+    - family: crunchyroll
+      routingEntry: crunchyroll
+      sources:
+        - kind: domain
+          value: www.crunchyroll.com
+          match: suffix
+    - family: cw-tv
+      routingEntry: cw-tv
+      sources:
+        - kind: domain
+          value: www.cwtv.com
+          match: suffix
+    - family: d-anime-store
+      routingEntry: d-anime-store
+      sources:
+        - kind: domain
+          value: animestore.docomo.ne.jp
+          match: suffix
+    - family: dazn
+      routingEntry: dazn
+      sources:
+        - kind: geosite
+          value: dazn
+    - family: directv-go
+      routingEntry: directv-go
+      sources:
+        - kind: domain
+          value: www.directvgo.com
+          match: suffix
+    - family: directv-stream
+      routingEntry: directv-stream
+      sources:
+        - kind: domain
+          value: stream.directv.com
+          match: suffix
+    - family: discoveryplus
+      routingEntry: discoveryplus
+      sources:
+        - kind: geosite
+          value: discoveryplus
+    - family: discoveryplus-uk
+      routingEntry: discoveryplus-uk
+      sources:
+        - kind: geosite
+          value: discoveryplus
+    - family: disney
+      routingEntry: disney
+      sources:
+        - kind: geosite
+          value: disney
+    - family: dmm
+      routingEntry: dmm
+      sources:
+        - kind: geosite
+          value: dmm
+    - family: dmm-tv
+      routingEntry: dmm-tv
+      sources:
+        - kind: geosite
+          value: dmm
+    - family: doc-play
+      routingEntry: doc-play
+      sources:
+        - kind: domain
+          value: www.docplay.com
+          match: suffix
+    - family: dstv
+      routingEntry: dstv
+      sources:
+        - kind: domain
+          value: now.dstv.com
+          match: suffix
+    - family: encoretvb
+      routingEntry: encoretvb
+      sources:
+        - kind: geosite
+          value: tvb
+    - family: erogamescape
+      routingEntry: erogamescape
+      sources:
+        - kind: domain
+          value: erogamescape.org
+          match: suffix
+    - family: espnplus
+      routingEntry: espnplus
+      sources:
+        - kind: geosite
+          value: espn
+    - family: eurosport-ro
+      routingEntry: eurosport-ro
+      sources:
+        - kind: domain
+          value: www.eurosport.ro
+          match: suffix
+    - family: fod-fuji-tv
+      routingEntry: fod-fuji-tv
+      sources: []
+    - family: fox
+      routingEntry: fox
+      sources:
+        - kind: geosite
+          value: fox
+    - family: france-tv
+      routingEntry: france-tv
+      sources:
+        - kind: domain
+          value: geo-info.ftven.fr
+          match: suffix
+    - family: friday-video
+      routingEntry: friday-video
+      sources:
+        - kind: domain
+          value: video.friday.tw
+          match: suffix
+    - family: fubo-tv
+      routingEntry: fubo-tv
+      sources:
+        - kind: domain
+          value: api.fubo.tv
+          match: suffix
+    - family: fxnow
+      routingEntry: fxnow
+      sources:
+        - kind: domain
+          value: fxnow.fxnetworks.com
+          match: suffix
+    - family: galaxy-play
+      routingEntry: galaxy-play
+      sources:
+        - kind: domain
+          value: api.glxplay.io
+          match: suffix
+    - family: gemini
+      routingEntry: gemini
+      sources:
+        - kind: geosite
+          value: google-gemini
+        - kind: geosite
+          value: google-deepmind
+    - family: google-play-store
+      routingEntry: google-play-store
+      sources:
+        - kind: geosite
+          value: google-play
+    - family: hami-video
+      routingEntry: hami-video
+      sources:
+        - kind: geosite
+          value: hamivideo
+    - family: hotstar
+      routingEntry: hotstar
+      sources:
+        - kind: geosite
+          value: hotstar
+    - family: hoy-tv
+      routingEntry: hoy-tv
+      sources:
+        - kind: domain
+          value: hoytv-live-stream.hoy.tv
+          match: suffix
+    - family: hulu
+      routingEntry: hulu
+      sources:
+        - kind: geosite
+          value: hulu
+    - family: hulu-japan
+      routingEntry: hulu-japan
+      sources:
+        - kind: domain
+          value: id.hulu.jp
+          match: suffix
+    - family: iqiyi
+      routingEntry: iqiyi
+      sources:
+        - kind: geosite
+          value: iqiyi
+    - family: itvx
+      routingEntry: itvx
+      sources:
+        - kind: domain
+          value: simulcast.itv.com
+          match: suffix
+    - family: j-com-on-demand
+      routingEntry: j-com-on-demand
+      sources:
+        - kind: domain
+          value: linkvod.myjcom.jp
+          match: suffix
+    - family: joyn
+      routingEntry: joyn
+      sources:
+        - kind: domain
+          value: api.joyn.de
+          match: suffix
+    - family: kancolle
+      routingEntry: kancolle
+      sources: []
+    - family: karaoke-dam
+      routingEntry: karaoke-dam
+      sources:
+        - kind: domain
+          value: cds1.clubdam.com
+          match: suffix
+    - family: kayo-sports
+      routingEntry: kayo-sports
+      sources:
+        - kind: domain
+          value: kayosports.com.au
+          match: suffix
+    - family: kbs
+      routingEntry: kbs
+      sources:
+        - kind: domain
+          value: vod.kbs.co.kr
+          match: suffix
+    - family: kktv
+      routingEntry: kktv
+      sources:
+        - kind: geosite
+          value: kktv
+    - family: kocowaplus
+      routingEntry: kocowaplus
+      sources:
+        - kind: domain
+          value: www.kocowa.com
+          match: suffix
+    - family: kplus
+      routingEntry: kplus
+      sources: []
+    - family: lemino
+      routingEntry: lemino
+      sources:
+        - kind: domain
+          value: lemino.docomo.ne.jp
+          match: suffix
+    - family: linetv-tw
+      routingEntry: linetv-tw
+      sources:
+        - kind: domain
+          value: www.linetv.tw
+          match: suffix
+    - family: litv
+      routingEntry: litv
+      sources:
+        - kind: geosite
+          value: litv
+    - family: maori-tv
+      routingEntry: maori-tv
+      sources:
+        - kind: domain
+          value: www.maoritelevision.com
+          match: suffix
+    - family: max
+      routingEntry: max
+      sources:
+        - kind: geosite
+          value: hbo
+    - family: mewatch
+      routingEntry: mewatch
+      sources:
+        - kind: domain
+          value: cdn.mewatch.sg
+          match: suffix
+    - family: mgmplus
+      routingEntry: mgmplus
+      sources:
+        - kind: domain
+          value: www.mgmplus.com
+          match: suffix
+    - family: mgstage
+      routingEntry: mgstage
+      sources:
+        - kind: domain
+          value: www.mgstage.com
+          match: suffix
+    - family: molotov
+      routingEntry: molotov
+      sources:
+        - kind: domain
+          value: fapi.molotov.tv
+          match: suffix
+    - family: mora
+      routingEntry: mora
+      sources:
+        - kind: domain
+          value: mora.jp
+          match: suffix
+    - family: movistar-plusplus
+      routingEntry: movistar-plusplus
+      sources:
+        - kind: domain
+          value: contratar.movistarplus.es
+          match: suffix
+    - family: music-jp
+      routingEntry: music-jp
+      sources:
+        - kind: domain
+          value: overseaauth.music-book.jp
+          match: suffix
+    - family: mx-player
+      routingEntry: mx-player
+      sources:
+        - kind: domain
+          value: www.mxplayer.in
+          match: suffix
+    - family: mytvsuper
+      routingEntry: mytvsuper
+      sources:
+        - kind: geosite
+          value: mytvsuper
+    - family: myvideo
+      routingEntry: myvideo
+      sources:
+        - kind: domain
+          value: www.myvideo.net.tw
+          match: suffix
+    - family: naver-tv
+      routingEntry: naver-tv
+      sources:
+        - kind: geosite
+          value: naver
+    - family: nba-tv
+      routingEntry: nba-tv
+      sources:
+        - kind: domain
+          value: www.nba.com
+          match: suffix
+    - family: nbc-tv
+      routingEntry: nbc-tv
+      sources:
+        - kind: domain
+          value: www.nbc.com
+          match: suffix
+    - family: neon-tv
+      routingEntry: neon-tv
+      sources:
+        - kind: domain
+          value: api.neontv.co.nz
+          match: suffix
+    - family: netflix
+      routingEntry: netflix
+      sources:
+        - kind: geosite
+          value: netflix
+    - family: nflplus
+      routingEntry: nflplus
+      sources:
+        - kind: domain
+          value: www.nfl.com
+          match: suffix
+    - family: nhkplus
+      routingEntry: nhkplus
+      sources:
+        - kind: geosite
+          value: nhk
+    - family: niconico
+      routingEntry: niconico
+      sources:
+        - kind: geosite
+          value: niconico
+    - family: nlziet
+      routingEntry: nlziet
+      sources:
+        - kind: domain
+          value: nlziet.nl
+          match: suffix
+    - family: now-tv
+      routingEntry: now-tv
+      sources:
+        - kind: domain
+          value: webtvapi.nowe.com
+          match: suffix
+    - family: npo-start-plus
+      routingEntry: npo-start-plus
+      sources:
+        - kind: domain
+          value: npo.nl
+          match: suffix
+    - family: ofiii
+      routingEntry: ofiii
+      sources:
+        - kind: geosite
+          value: litv
+    - family: optus-sports
+      routingEntry: optus-sports
+      sources:
+        - kind: domain
+          value: sport.optus.com.au
+          match: suffix
+    - family: panda-tv
+      routingEntry: panda-tv
+      sources:
+        - kind: domain
+          value: api.pandalive.co.kr
+          match: suffix
+    - family: paramountplus
+      routingEntry: paramountplus
+      sources:
+        - kind: domain
+          value: www.paramountplus.com
+          match: suffix
+    - family: peacock-tv
+      routingEntry: peacock-tv
+      sources:
+        - kind: domain
+          value: www.peacocktv.com
+          match: suffix
+    - family: philo
+      routingEntry: philo
+      sources: []
+    - family: pluto-tv
+      routingEntry: pluto-tv
+      sources:
+        - kind: geosite
+          value: plutotv
+    - family: pretty-derby-japan
+      routingEntry: pretty-derby-japan
+      sources: []
+    - family: primevideo
+      routingEntry: primevideo
+      sources:
+        - kind: geosite
+          value: primevideo
+    - family: princess-connect-re-dive-japan
+      routingEntry: princess-connect-re-dive-japan
+      sources: []
+    - family: project-sekai-colorful-stage
+      routingEntry: project-sekai-colorful-stage
+      sources: []
+    - family: radiko
+      routingEntry: radiko
+      sources:
+        - kind: geosite
+          value: radiko
+    - family: rai-play
+      routingEntry: rai-play
+      sources:
+        - kind: domain
+          value: mediapolisvod.rai.it
+          match: suffix
+    - family: rakuten-magazine
+      routingEntry: rakuten-magazine
+      sources:
+        - kind: domain
+          value: data-cloudauthoring.magazine.rakuten.co.jp
+          match: suffix
+    - family: rakuten-tv
+      routingEntry: rakuten-tv-jp
+      sources:
+        - kind: geosite
+          value: rakuten
+    - family: reddit
+      routingEntry: reddit
+      sources:
+        - kind: geosite
+          value: reddit
+    - family: sbs-on-demand
+      routingEntry: sbs-on-demand
+      sources:
+        - kind: domain
+          value: www.sbs.com.au
+          match: suffix
+    - family: setanta-sports
+      routingEntry: setanta-sports
+      sources: []
+    - family: shudder
+      routingEntry: shudder
+      sources:
+        - kind: domain
+          value: www.shudder.com
+          match: suffix
+    - family: sky-ch
+      routingEntry: sky-ch
+      sources:
+        - kind: geosite
+          value: sky
+    - family: sky-de
+      routingEntry: sky-de
+      sources:
+        - kind: geosite
+          value: sky
+    - family: sky-go
+      routingEntry: sky-go
+      sources:
+        - kind: geosite
+          value: sky
+    - family: sky-go-nz
+      routingEntry: sky-go-nz
+      sources:
+        - kind: geosite
+          value: sky
+    - family: sky-show-time
+      routingEntry: sky-show-time
+      sources:
+        - kind: domain
+          value: www.skyshowtime.com
+          match: suffix
+    - family: sling-tv
+      routingEntry: sling-tv
+      sources:
+        - kind: geosite
+          value: sling
+    - family: sonyliv
+      routingEntry: sonyliv
+      sources:
+        - kind: domain
+          value: www.sonyliv.com
+          match: suffix
+    - family: sooka
+      routingEntry: sooka
+      sources:
+        - kind: domain
+          value: sooka.my
+          match: suffix
+    - family: soop
+      routingEntry: soop
+      sources:
+        - kind: domain
+          value: vod.sooplive.co.kr
+          match: suffix
+    - family: spotify
+      routingEntry: spotify
+      sources:
+        - kind: geosite
+          value: spotify
+    - family: spotv-now
+      routingEntry: spotv-now
+      sources:
+        - kind: domain
+          value: www.spotvnow.co.kr
+          match: suffix
+    - family: stan
+      routingEntry: stan
+      sources:
+        - kind: domain
+          value: api.stan.com.au
+          match: suffix
+    - family: starz
+      routingEntry: starz
+      sources:
+        - kind: domain
+          value: www.starz.com
+          match: suffix
+    - family: steam
+      routingEntry: steam
+      sources:
+        - kind: geosite
+          value: steam
+    - family: tata-play
+      routingEntry: tata-play
+      sources:
+        - kind: domain
+          value: watch.tataplay.com
+          match: suffix
+    - family: telasa
+      routingEntry: telasa
+      sources:
+        - kind: domain
+          value: api-videopass-anon.kddi-video.com
+          match: suffix
+    - family: three-now
+      routingEntry: three-now
+      sources: []
+    - family: tiktok
+      routingEntry: tiktok
+      sources:
+        - kind: geosite
+          value: tiktok
+    - family: tlc-go
+      routingEntry: tlc-go
+      sources: []
+    - family: tntsports
+      routingEntry: tntsports
+      sources:
+        - kind: domain
+          value: www.tntsports.co.uk
+          match: suffix
+    - family: trueid
+      routingEntry: trueid
+      sources:
+        - kind: domain
+          value: tv.trueid.net
+          match: suffix
+    - family: tubi-tv
+      routingEntry: tubi-tv
+      sources:
+        - kind: geosite
+          value: tubi
+    - family: tvb
+      routingEntry: tvb
+      sources:
+        - kind: geosite
+          value: tvb
+    - family: tver
+      routingEntry: tver
+      sources:
+        - kind: geosite
+          value: tver
+    - family: tving
+      routingEntry: tving
+      sources:
+        - kind: domain
+          value: api.tving.com
+          match: suffix
+    - family: unext
+      routingEntry: unext
+      sources:
+        - kind: geosite
+          value: unext
+    - family: viaplay
+      routingEntry: viaplay
+      sources:
+        - kind: domain
+          value: viaplay.pl
+          match: suffix
+    - family: video-land
+      routingEntry: video-land
+      sources:
+        - kind: domain
+          value: api.videoland.com
+          match: suffix
+    - family: videomarket
+      routingEntry: videomarket
+      sources:
+        - kind: domain
+          value: www.videomarket.jp
+          match: suffix
+    - family: viu-com
+      routingEntry: viu-com
+      sources:
+        - kind: geosite
+          value: viu
+    - family: viu-tv
+      routingEntry: viu-tv
+      sources:
+        - kind: geosite
+          value: viu
+    - family: watcha
+      routingEntry: watcha
+      sources:
+        - kind: domain
+          value: watcha.com
+          match: suffix
+    - family: wavve
+      routingEntry: wavve
+      sources:
+        - kind: domain
+          value: apis.wavve.com
+          match: suffix
+    - family: wetv
+      routingEntry: wetv
+      sources:
+        - kind: domain
+          value: wetv.vip
+          match: suffix
+    - family: wikimedia
+      routingEntry: wikimedia
+      sources:
+        - kind: geosite
+          value: wikimedia
+    - family: wowow
+      routingEntry: wowow
+      sources:
+        - kind: domain
+          value: wod.wowow.co.jp
+          match: suffix
+    - family: youtube
+      routingEntry: youtube
+      sources:
+        - kind: geosite
+          value: youtube
+    - family: zdf
+      routingEntry: zdf
+      sources:
+        - kind: domain
+          value: ssl.zdf.de
+          match: suffix
+    - family: zee5
+      routingEntry: zee5
+      sources:
+        - kind: domain
+          value: www.zee5.com
+          match: suffix

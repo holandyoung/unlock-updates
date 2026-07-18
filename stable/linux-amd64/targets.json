@@ -1,15 +1,15 @@
 {
   "signed": {
-    "version": 20260716213955,
-    "expiresAt": "2026-08-15T21:39:55Z",
+    "version": 20260718045533,
+    "expiresAt": "2026-08-17T04:55:33Z",
     "targets": [
       {
         "manifest": {
           "stream": "catalog",
-          "version": 20260716213955,
+          "version": 20260718045533,
           "protocolVersion": 1,
-          "expiresAt": "2026-08-15T21:39:55Z",
-          "publishedAt": "2026-07-16T21:39:55Z",
+          "expiresAt": "2026-08-17T04:55:33Z",
+          "publishedAt": "2026-07-18T04:55:33Z",
           "compatibilityEpoch": 1,
           "canonicalFamilies": [
             "10-play",
@@ -27,7 +27,6 @@
             "bahamut",
             "bbc-iplayer",
             "bilibili",
-            "bing",
             "britbox",
             "canalplus",
             "catchplay",
@@ -38,8 +37,8 @@
             "chatgpt",
             "claude",
             "clip-tv",
-            "copilot",
             "coupang-play",
+            "crackle",
             "crave",
             "crunchyroll",
             "cw-tv",
@@ -47,11 +46,9 @@
             "dazn",
             "directv-go",
             "directv-stream",
-            "discoveryplus",
-            "discoveryplus-uk",
+            "discovery-plus",
             "disney",
             "dmm",
-            "dmm-tv",
             "doc-play",
             "dstv",
             "encoretvb",
@@ -67,16 +64,19 @@
             "galaxy-play",
             "gemini",
             "google-play-store",
+            "grok",
             "hami-video",
+            "hbo-max",
             "hotstar",
             "hoy-tv",
             "hulu",
             "hulu-japan",
+            "instagram",
+            "instagram-music",
             "iqiyi",
             "itvx",
             "j-com-on-demand",
             "joyn",
-            "kancolle",
             "karaoke-dam",
             "kayo-sports",
             "kbs",
@@ -87,10 +87,10 @@
             "linetv-tw",
             "litv",
             "maori-tv",
-            "max",
             "mewatch",
             "mgmplus",
             "mgstage",
+            "microsoft-copilot",
             "molotov",
             "mora",
             "movistar-plusplus",
@@ -110,7 +110,6 @@
             "now-tv",
             "npo-start-plus",
             "ofiii",
-            "optus-sports",
             "panda-tv",
             "paramountplus",
             "peacock-tv",
@@ -146,7 +145,6 @@
             "telasa",
             "three-now",
             "tiktok",
-            "tlc-go",
             "tntsports",
             "trueid",
             "tubi-tv",
@@ -158,23 +156,127 @@
             "video-land",
             "videomarket",
             "viu-com",
-            "viu-tv",
             "watcha",
             "wavve",
             "wetv",
             "wikimedia",
             "wowow",
+            "x",
             "youtube",
             "zdf",
             "zee5"
           ],
           "aliases": [
             {
+              "source": "bing",
+              "target": "microsoft-copilot",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "copilot",
+              "target": "microsoft-copilot",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "discoveryplus",
+              "target": "discovery-plus",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "us"
+            },
+            {
+              "source": "discoveryplus-uk",
+              "target": "discovery-plus",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "uk"
+            },
+            {
+              "source": "dmm-tv",
+              "target": "dmm",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "funimation",
+              "target": "crunchyroll",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "serviceRegion",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "hbo-go-asia",
+              "target": "hbo-max",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "hbogo-asia",
+              "target": "hbo-max",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "kancolle",
+              "target": "dmm",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "max",
+              "target": "hbo-max",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
               "source": "netflix-cdn",
               "target": "netflix",
               "introducedEpoch": 1,
               "retireAfterEpoch": 2,
               "signalSlot": "cdnRegion"
+            },
+            {
+              "source": "nowe",
+              "target": "now-tv",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "optus-sports",
+              "target": "stan",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "paravi",
+              "target": "unext",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
             },
             {
               "source": "rakuten-tv-eu",
@@ -193,6 +295,54 @@
               "selectedVariant": "jp"
             },
             {
+              "source": "starplus",
+              "target": "disney",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "tlc-go",
+              "target": "discovery-plus",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "us"
+            },
+            {
+              "source": "tlcgo",
+              "target": "discovery-plus",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "us"
+            },
+            {
+              "source": "tvb-anywhere",
+              "target": "tvb",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "tvbanywhere",
+              "target": "tvb",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
+              "source": "viu-tv",
+              "target": "now-tv",
+              "introducedEpoch": 1,
+              "retireAfterEpoch": 2,
+              "signalSlot": "availability",
+              "selectedVariant": "default"
+            },
+            {
               "source": "youtube-cdn",
               "target": "youtube",
               "introducedEpoch": 1,
@@ -202,28 +352,28 @@
           ],
           "requires": {
             "engine": {
-              "min": 20260716213955,
-              "max": 20260716213955
+              "min": 20260718045533,
+              "max": 20260718045533
             },
             "routing": {
-              "min": 20260716213955,
-              "max": 20260716213955
+              "min": 20260718045533,
+              "max": 20260718045533
             }
           }
         },
-        "digest": "9795281011ef2c1eca9ef1d59b625b5c513a9278fe2794b6202a50230e19bdae",
-        "length": 42903,
-        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/9795281011ef2c1eca9ef1d59b625b5c513a9278fe2794b6202a50230e19bdae"
+        "digest": "0d21b48c703f4730c277b6f3a5e58d1f71ca8959c239d88429890ba9a3bc7dd8",
+        "length": 53943,
+        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/0d21b48c703f4730c277b6f3a5e58d1f71ca8959c239d88429890ba9a3bc7dd8"
       },
       {
         "manifest": {
           "stream": "engine",
-          "version": 20260716213955,
+          "version": 20260718045533,
           "protocolVersion": 1,
           "os": "linux",
           "arch": "amd64",
-          "expiresAt": "2026-08-15T21:39:55Z",
-          "publishedAt": "2026-07-16T21:39:55Z",
+          "expiresAt": "2026-08-17T04:55:33Z",
+          "publishedAt": "2026-07-18T04:55:33Z",
           "engineId": "mediaunlocktest",
           "upstreamVersion": "v1.9.7-1783234005 (772ed51c)",
           "providers": [
@@ -403,12 +553,8 @@
           ],
           "unmappedProviders": [
             "Coze",
-            "Crackle",
             "DeepSeek",
-            "Funimation",
-            "Grok",
             "HboGoAsia",
-            "Instagram",
             "JioCinema",
             "Kimi",
             "KonosubaFD",
@@ -418,52 +564,51 @@
             "Perplexity",
             "Poe",
             "Popcornflix",
-            "StarPlus",
-            "X"
+            "StarPlus"
           ],
           "requires": {
             "catalog": {
-              "min": 20260716213955,
-              "max": 20260716213955
+              "min": 20260718045533,
+              "max": 20260718045533
             },
             "routing": {
-              "min": 20260716213955,
-              "max": 20260716213955
+              "min": 20260718045533,
+              "max": 20260718045533
             }
           }
         },
-        "digest": "88e71c4d62cd8096ee8b87c98310f09089f45eccb65948f673bf1c4f1e09b601",
+        "digest": "fc2814e2693639e7ff37652449c8489184187677839512468853874ba023bdc0",
         "length": 12562594,
-        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/88e71c4d62cd8096ee8b87c98310f09089f45eccb65948f673bf1c4f1e09b601"
+        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/fc2814e2693639e7ff37652449c8489184187677839512468853874ba023bdc0"
       },
       {
         "manifest": {
           "stream": "routing",
-          "version": 20260716213955,
+          "version": 20260718045533,
           "protocolVersion": 1,
-          "expiresAt": "2026-08-15T21:39:55Z",
-          "publishedAt": "2026-07-16T21:39:55Z",
+          "expiresAt": "2026-08-17T04:55:33Z",
+          "publishedAt": "2026-07-18T04:55:33Z",
           "requires": {
             "catalog": {
-              "min": 20260716213955,
-              "max": 20260716213955
+              "min": 20260718045533,
+              "max": 20260718045533
             },
             "engine": {
-              "min": 20260716213955,
-              "max": 20260716213955
+              "min": 20260718045533,
+              "max": 20260718045533
             }
           }
         },
-        "digest": "4464bb1cb1bcea2e9faf98b9af73007c35e008b4af01a19a150fcd0717071fab",
-        "length": 20294,
-        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/4464bb1cb1bcea2e9faf98b9af73007c35e008b4af01a19a150fcd0717071fab"
+        "digest": "554a6696e0441b42cfcf6ae91d90d787377acfef1c597f35a0a8430594bd5fb4",
+        "length": 23397,
+        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/554a6696e0441b42cfcf6ae91d90d787377acfef1c597f35a0a8430594bd5fb4"
       }
     ]
   },
   "signatures": [
     {
       "keyId": "unlock-update-root-2026",
-      "value": "sD5mEcmyRGroj/cbDhRO4MvdRuDdkPeBkL2OT3NoZco1qYbKISvROhXYO40OQYqD0Lb64+GvwYqkFXAqNqzpBw=="
+      "value": "ny1hC6d9hXuxvfUG5DVTzNbaf2x6LtkYtbYf9CCR6L35RriYz7B0dq2CrnVo3F/jdvYrT0AqQIXyH1LazuRSCg=="
     }
   ]
 }

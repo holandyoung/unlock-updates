@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "threshold": 2,
+  "expiresAt": "2026-10-26T16:06:01Z",
+  "keys": {
+    "phase3-a": "b2f8bFMKfHkBg512Do36g03mW/2MAwTkQPy9YUTY50M=",
+    "phase3-b": "BWQgx9dVa/Js9Nv4RGPkmyF++0rl7iA4yxhRFrflcoQ=",
+    "phase3-c": "+XUZx75xCq6ZoALBGACdkiy14p4WMuIW5M01E58UY0M="
+  }
+}

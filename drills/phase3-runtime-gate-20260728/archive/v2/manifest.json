@@ -1,0 +1,109 @@
+{
+  "signed": {
+    "schemaVersion": 1,
+    "protocol": "unlock-catalog-v1",
+    "sourceId": "phase3-runtime-gate-20260728",
+    "version": 2,
+    "publishedAt": "2026-07-28T16:05:03Z",
+    "expiresAt": "2026-08-27T16:05:03Z",
+    "minCoreProtocol": 1,
+    "maxCoreProtocol": 1,
+    "minCoreVersion": "1.0.0",
+    "maxCoreVersion": "1.0.0",
+    "compatibilityEpoch": 1,
+    "entries": [
+      {
+        "entryId": "phase3-runtime-gate-20260728",
+        "displayComponentId": "phase3-runtime-gate-20260728-display",
+        "displayName": "Phase 3 Runtime Gate v2",
+        "description": "Isolated Catalog runtime verification drill",
+        "tags": [
+          "phase3",
+          "runtime-gate"
+        ],
+        "family": {
+          "name": "phase3-runtime-gate-20260728",
+          "displayName": "Phase 3 Runtime Gate v2",
+          "defaultEngine": "mediaunlocktest",
+          "defaultVariant": "global",
+          "routingEntry": "phase3-runtime-gate-20260728",
+          "variants": {
+            "global": {
+              "id": "global",
+              "requiredSlots": [
+                "availability"
+              ],
+              "bindings": [
+                {
+                  "id": "phase3-runtime-gate-20260728-check",
+                  "provider": "netflix",
+                  "slots": [
+                    "availability"
+                  ]
+                }
+              ]
+            }
+          },
+          "pinPolicy": {
+            "componentId": "phase3-runtime-gate-20260728-check",
+            "sourceSlot": "availability",
+            "acceptedVerdicts": [
+              "unlocked"
+            ]
+          }
+        },
+        "routing": [
+          {
+            "componentId": "phase3-runtime-gate-20260728-routing",
+            "rule": {
+              "kind": "ruleset",
+              "format": "text",
+              "behavior": "domain",
+              "interval": 86400
+            },
+            "artifactId": "phase3-runtime-gate-20260728-routes"
+          }
+        ],
+        "detection": [
+          {
+            "componentId": "phase3-runtime-gate-20260728-check",
+            "artifactIds": [
+              "phase3-runtime-gate-20260728-data"
+            ]
+          }
+        ]
+      }
+    ],
+    "artifacts": [
+      {
+        "artifactId": "phase3-runtime-gate-20260728-routes",
+        "entryId": "phase3-runtime-gate-20260728",
+        "permission": "routing-data",
+        "mediaType": "text/plain",
+        "path": "artifacts/v2/routes.txt",
+        "sha256": "f9e55734a3be81e9646cfb46c7e3034721697135ddb305d9616e88f6696b4695",
+        "length": 30
+      },
+      {
+        "artifactId": "phase3-runtime-gate-20260728-data",
+        "entryId": "phase3-runtime-gate-20260728",
+        "permission": "detection-data",
+        "mediaType": "application/json",
+        "path": "artifacts/v2/detection.json",
+        "sha256": "026c2ace4daa8868dba42e68c03ac55891978c5f3af38d8909446690b82642a9",
+        "length": 29
+      }
+    ],
+    "revocations": []
+  },
+  "signatures": [
+    {
+      "keyId": "phase3-a",
+      "value": "PcDlHSeimu5HjXRckUKou3DYZmszJabF9VSxq+mLoRVI/yY2bFWnhJNbARr455kOi6Fb1BTLjWnniI9/J6ijCw=="
+    },
+    {
+      "keyId": "phase3-b",
+      "value": "d5Wf2yiRA213OcoVDngdlzUBn4tyOjilLjJGasQhEPpKu3fXQSSBnjbeGdKuFh2Gx1HGhC6xxgB7ZDJ+0L63Aw=="
+    }
+  ]
+}

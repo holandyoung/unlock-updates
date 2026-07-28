@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "protocol": "unlock-catalog-v1",
     "sourceId": "phase3-runtime-gate-20260728-r2",
-    "version": 2,
-    "publishedAt": "2026-07-28T16:21:18Z",
-    "expiresAt": "2026-08-27T16:21:18Z",
+    "version": 3,
+    "publishedAt": "2026-07-28T16:21:19Z",
+    "expiresAt": "2026-08-27T16:21:19Z",
     "minCoreProtocol": 1,
     "maxCoreProtocol": 1,
     "minCoreVersion": "1.0.0",
@@ -15,7 +15,7 @@
       {
         "entryId": "phase3-runtime-gate-20260728-r2",
         "displayComponentId": "phase3-runtime-gate-20260728-r2-display",
-        "displayName": "Phase 3 Runtime Gate v2",
+        "displayName": "Phase 3 Runtime Gate v3",
         "description": "Isolated Catalog runtime verification drill",
         "tags": [
           "phase3",
@@ -23,7 +23,7 @@
         ],
         "family": {
           "name": "phase3-runtime-gate-20260728-r2",
-          "displayName": "Phase 3 Runtime Gate v2",
+          "displayName": "Phase 3 Runtime Gate v3",
           "defaultEngine": "mediaunlocktest",
           "defaultVariant": "global",
           "routingEntry": "phase3-runtime-gate-20260728-r2",
@@ -68,7 +68,8 @@
           {
             "componentId": "phase3-runtime-gate-20260728-r2-check",
             "artifactIds": [
-              "phase3-runtime-gate-20260728-r2-data"
+              "phase3-runtime-gate-20260728-r2-data",
+              "phase3-runtime-gate-20260728-r2-helper"
             ]
           }
         ]
@@ -80,7 +81,7 @@
         "entryId": "phase3-runtime-gate-20260728-r2",
         "permission": "routing-data",
         "mediaType": "text/plain",
-        "path": "artifacts/v2/routes.txt",
+        "path": "artifacts/v3/routes.txt",
         "sha256": "f9e55734a3be81e9646cfb46c7e3034721697135ddb305d9616e88f6696b4695",
         "length": 30
       },
@@ -89,9 +90,23 @@
         "entryId": "phase3-runtime-gate-20260728-r2",
         "permission": "detection-data",
         "mediaType": "application/json",
-        "path": "artifacts/v2/detection.json",
-        "sha256": "026c2ace4daa8868dba42e68c03ac55891978c5f3af38d8909446690b82642a9",
+        "path": "artifacts/v3/detection.json",
+        "sha256": "b8540aa90feb22026e89a4cdadbee11156451e0afe76056087158b19e493001f",
         "length": 29
+      },
+      {
+        "artifactId": "phase3-runtime-gate-20260728-r2-helper",
+        "entryId": "phase3-runtime-gate-20260728-r2",
+        "permission": "executable",
+        "mediaType": "application/octet-stream",
+        "path": "artifacts/v3/helper",
+        "sha256": "88c60fd97188ac3fa011009aa2642cd4b1e8df784a37ce85cc5fcece933f281f",
+        "length": 21,
+        "platform": {
+          "os": "linux",
+          "arch": "amd64",
+          "abi": "static"
+        }
       }
     ],
     "revocations": []
@@ -99,11 +114,11 @@
   "signatures": [
     {
       "keyId": "phase3-a",
-      "value": "JBJpk1XYoYkDSxDxz4ofjIpeVMlRd9Mrc+ZLSlDMDcxyyPkiXkW18RoNTNVOr5/F6UILFWM6Shp3IHGARpGCDA=="
+      "value": "DK75E7S3SaWtP5ZVttHYTZNgoiPzayxlZ9CHrBYKHifldYwMiaDQt++o523uCD9roz388m1UqZGaW0LIrIAMDA=="
     },
     {
       "keyId": "phase3-b",
-      "value": "Gv0DJFgL2qmqH5jIN4Klyp7E/do4BRmNZZlxemY6N81UcAjEhm6/+vju+PMjVCtHMlY+Ch6b2WPKgfpO1KoDBg=="
+      "value": "5F5hCd8cbisdNHlvAa5WqHbAZ9Wjk0iOppFfdeYAxr/K3+5SduBgpdxuJ3p+0yE9CRbotQNx81IE3WyVUc0hAg=="
     }
   ]
 }

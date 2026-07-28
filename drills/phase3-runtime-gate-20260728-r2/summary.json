@@ -1,0 +1,14 @@
+{
+  "sourceId": "phase3-runtime-gate-20260728-r2",
+  "versions": [
+    1,
+    2,
+    3
+  ],
+  "trustRootFingerprint": "6df17ed0645905ff1d107cf0fdf7bbcd0bfbb0feccd978dfcad659188f7f755f",
+  "manifestDigests": {
+    "v1": "5493e015a95e5bab70ca8b75c33bdb2f92dbd955293da3999084370280a41dfc",
+    "v2": "8e7b81c144d135fb933115c8872f0a3880664bef0a12fa00543f36931ba4fcb5",
+    "v3": "be8744c0e8ce083a5e0f77efe9533f8584350b185614cd5c0f5954dc5e16b2d5"
+  }
+}

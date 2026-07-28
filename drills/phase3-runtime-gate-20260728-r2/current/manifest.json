@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "protocol": "unlock-catalog-v1",
     "sourceId": "phase3-runtime-gate-20260728-r2",
-    "version": 1,
-    "publishedAt": "2026-07-28T16:21:17Z",
-    "expiresAt": "2026-08-27T16:21:17Z",
+    "version": 2,
+    "publishedAt": "2026-07-28T16:21:18Z",
+    "expiresAt": "2026-08-27T16:21:18Z",
     "minCoreProtocol": 1,
     "maxCoreProtocol": 1,
     "minCoreVersion": "1.0.0",
@@ -15,7 +15,7 @@
       {
         "entryId": "phase3-runtime-gate-20260728-r2",
         "displayComponentId": "phase3-runtime-gate-20260728-r2-display",
-        "displayName": "Phase 3 Runtime Gate v1",
+        "displayName": "Phase 3 Runtime Gate v2",
         "description": "Isolated Catalog runtime verification drill",
         "tags": [
           "phase3",
@@ -23,7 +23,7 @@
         ],
         "family": {
           "name": "phase3-runtime-gate-20260728-r2",
-          "displayName": "Phase 3 Runtime Gate v1",
+          "displayName": "Phase 3 Runtime Gate v2",
           "defaultEngine": "mediaunlocktest",
           "defaultVariant": "global",
           "routingEntry": "phase3-runtime-gate-20260728-r2",
@@ -80,7 +80,7 @@
         "entryId": "phase3-runtime-gate-20260728-r2",
         "permission": "routing-data",
         "mediaType": "text/plain",
-        "path": "artifacts/v1/routes.txt",
+        "path": "artifacts/v2/routes.txt",
         "sha256": "f9e55734a3be81e9646cfb46c7e3034721697135ddb305d9616e88f6696b4695",
         "length": 30
       },
@@ -89,8 +89,8 @@
         "entryId": "phase3-runtime-gate-20260728-r2",
         "permission": "detection-data",
         "mediaType": "application/json",
-        "path": "artifacts/v1/detection.json",
-        "sha256": "ceb4b133c99acfe2b07b3a47352faf70168333ab4807fb43a12705e8d157cbc5",
+        "path": "artifacts/v2/detection.json",
+        "sha256": "026c2ace4daa8868dba42e68c03ac55891978c5f3af38d8909446690b82642a9",
         "length": 29
       }
     ],
@@ -99,11 +99,11 @@
   "signatures": [
     {
       "keyId": "phase3-a",
-      "value": "iegnt+6q7wtRED2ptG5T1a2wITDexKJ5hresHTJm9OdsZNhHsIz6IoTtiR4PS718qkcCN7Z8lmTSa2EeX94NDQ=="
+      "value": "JBJpk1XYoYkDSxDxz4ofjIpeVMlRd9Mrc+ZLSlDMDcxyyPkiXkW18RoNTNVOr5/F6UILFWM6Shp3IHGARpGCDA=="
     },
     {
       "keyId": "phase3-b",
-      "value": "8V5JNFzGfrECHHql9NTNaSjHx2CE7v5UXaPr2ZFkUvogcnrCJSQfnswgMgM4P+LwddVzz1Qs4FekXZaz1jxxDw=="
+      "value": "Gv0DJFgL2qmqH5jIN4Klyp7E/do4BRmNZZlxemY6N81UcAjEhm6/+vju+PMjVCtHMlY+Ch6b2WPKgfpO1KoDBg=="
     }
   ]
 }

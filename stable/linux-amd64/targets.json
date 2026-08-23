@@ -1,15 +1,15 @@
 {
   "signed": {
-    "version": 20260730192511,
-    "expiresAt": "2026-08-29T19:25:11Z",
+    "version": 20260823040723,
+    "expiresAt": "2026-09-22T04:07:23Z",
     "targets": [
       {
         "manifest": {
           "stream": "catalog",
-          "version": 20260730192511,
+          "version": 20260823040723,
           "protocolVersion": 1,
-          "expiresAt": "2026-08-29T19:25:11Z",
-          "publishedAt": "2026-07-30T19:25:11Z",
+          "expiresAt": "2026-09-22T04:07:23Z",
+          "publishedAt": "2026-08-23T04:07:23Z",
           "compatibilityEpoch": 1,
           "canonicalFamilies": [
             "10-play",
@@ -352,12 +352,12 @@
           ],
           "requires": {
             "engine": {
-              "min": 20260730192511,
-              "max": 20260730192511
+              "min": 20260823040723,
+              "max": 20260823040723
             },
             "routing": {
-              "min": 20260730192511,
-              "max": 20260730192511
+              "min": 20260823040723,
+              "max": 20260823040723
             }
           }
         },
@@ -368,12 +368,12 @@
       {
         "manifest": {
           "stream": "engine",
-          "version": 20260730192511,
+          "version": 20260823040723,
           "protocolVersion": 1,
           "os": "linux",
           "arch": "amd64",
-          "expiresAt": "2026-08-29T19:25:11Z",
-          "publishedAt": "2026-07-30T19:25:11Z",
+          "expiresAt": "2026-09-22T04:07:23Z",
+          "publishedAt": "2026-08-23T04:07:23Z",
           "engineId": "mediaunlocktest",
           "upstreamVersion": "v1.9.7-1783234005 (772ed51c)",
           "providers": [
@@ -568,34 +568,34 @@
           ],
           "requires": {
             "catalog": {
-              "min": 20260730192511,
-              "max": 20260730192511
+              "min": 20260823040723,
+              "max": 20260823040723
             },
             "routing": {
-              "min": 20260730192511,
-              "max": 20260730192511
+              "min": 20260823040723,
+              "max": 20260823040723
             }
           }
         },
-        "digest": "44fc0f121131766bbcdc4d8606fd6dd7ca06d6895eab403f52d72adef30e8c7e",
+        "digest": "4e5ef24e8a93e6819aa8b3cf22709a8bdc77941b87d22099bd6e0947dc0f7f4a",
         "length": 12562594,
-        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/44fc0f121131766bbcdc4d8606fd6dd7ca06d6895eab403f52d72adef30e8c7e"
+        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/4e5ef24e8a93e6819aa8b3cf22709a8bdc77941b87d22099bd6e0947dc0f7f4a"
       },
       {
         "manifest": {
           "stream": "routing",
-          "version": 20260730192511,
+          "version": 20260823040723,
           "protocolVersion": 1,
-          "expiresAt": "2026-08-29T19:25:11Z",
-          "publishedAt": "2026-07-30T19:25:11Z",
+          "expiresAt": "2026-09-22T04:07:23Z",
+          "publishedAt": "2026-08-23T04:07:23Z",
           "requires": {
             "catalog": {
-              "min": 20260730192511,
-              "max": 20260730192511
+              "min": 20260823040723,
+              "max": 20260823040723
             },
             "engine": {
-              "min": 20260730192511,
-              "max": 20260730192511
+              "min": 20260823040723,
+              "max": 20260823040723
             }
           }
         },
@@ -608,7 +608,7 @@
   "signatures": [
     {
       "keyId": "unlock-update-root-2026",
-      "value": "VzsO6BvtovtJjHcAKE0aSs/APLWAopRECxVb9kDumQLPYwXDrtLvRXqaB6lnXmZs4NWtIYLHNPCop52iGmt7CA=="
+      "value": "0ueQvX+aw5/FVD9fvpe4vEcrMSGg6ystvGcNplkQo+NKNjFIMZ+yDGuBGrnhEUIPGmD9STU2qr3QEELpWDChAQ=="
     }
   ]
 }

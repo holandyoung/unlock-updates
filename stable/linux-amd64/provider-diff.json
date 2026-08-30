@@ -1,9 +1,12 @@
 {
-  "added": null,
+  "added": [
+    "Dola"
+  ],
   "removed": null,
   "unmapped": [
     "Coze",
     "DeepSeek",
+    "Dola",
     "HboGoAsia",
     "JioCinema",
     "Kimi",

@@ -1,15 +1,15 @@
 {
   "signed": {
-    "version": 20260823040723,
-    "expiresAt": "2026-09-22T04:07:23Z",
+    "version": 20260830092211,
+    "expiresAt": "2026-09-29T09:22:11Z",
     "targets": [
       {
         "manifest": {
           "stream": "catalog",
-          "version": 20260823040723,
+          "version": 20260830092211,
           "protocolVersion": 1,
-          "expiresAt": "2026-09-22T04:07:23Z",
-          "publishedAt": "2026-08-23T04:07:23Z",
+          "expiresAt": "2026-09-29T09:22:11Z",
+          "publishedAt": "2026-08-30T09:22:11Z",
           "compatibilityEpoch": 1,
           "canonicalFamilies": [
             "10-play",
@@ -352,12 +352,12 @@
           ],
           "requires": {
             "engine": {
-              "min": 20260823040723,
-              "max": 20260823040723
+              "min": 20260830092211,
+              "max": 20260830092211
             },
             "routing": {
-              "min": 20260823040723,
-              "max": 20260823040723
+              "min": 20260830092211,
+              "max": 20260830092211
             }
           }
         },
@@ -368,14 +368,14 @@
       {
         "manifest": {
           "stream": "engine",
-          "version": 20260823040723,
+          "version": 20260830092211,
           "protocolVersion": 1,
           "os": "linux",
           "arch": "amd64",
-          "expiresAt": "2026-09-22T04:07:23Z",
-          "publishedAt": "2026-08-23T04:07:23Z",
+          "expiresAt": "2026-09-29T09:22:11Z",
+          "publishedAt": "2026-08-30T09:22:11Z",
           "engineId": "mediaunlocktest",
-          "upstreamVersion": "v1.9.7-1783234005 (772ed51c)",
+          "upstreamVersion": "v1.9.9-1788067938 (3dedd009)",
           "providers": [
             "ABCiView",
             "AETV",
@@ -418,6 +418,7 @@
             "DiscoveryPlus_UK",
             "DisneyPlus",
             "DocPlay",
+            "Dola",
             "ESPNPlus",
             "EncoreTVB",
             "ErogameScape",
@@ -554,6 +555,7 @@
           "unmappedProviders": [
             "Coze",
             "DeepSeek",
+            "Dola",
             "HboGoAsia",
             "JioCinema",
             "Kimi",
@@ -568,34 +570,34 @@
           ],
           "requires": {
             "catalog": {
-              "min": 20260823040723,
-              "max": 20260823040723
+              "min": 20260830092211,
+              "max": 20260830092211
             },
             "routing": {
-              "min": 20260823040723,
-              "max": 20260823040723
+              "min": 20260830092211,
+              "max": 20260830092211
             }
           }
         },
-        "digest": "4e5ef24e8a93e6819aa8b3cf22709a8bdc77941b87d22099bd6e0947dc0f7f4a",
-        "length": 12562594,
-        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/4e5ef24e8a93e6819aa8b3cf22709a8bdc77941b87d22099bd6e0947dc0f7f4a"
+        "digest": "039cc8db7cc7deca2810eaa2d14472eda7954d5feecebd7a5faf15fbd25acc50",
+        "length": 13197474,
+        "url": "https://holandyoung.github.io/unlock-updates/stable/linux-amd64/artifacts/039cc8db7cc7deca2810eaa2d14472eda7954d5feecebd7a5faf15fbd25acc50"
       },
       {
         "manifest": {
           "stream": "routing",
-          "version": 20260823040723,
+          "version": 20260830092211,
           "protocolVersion": 1,
-          "expiresAt": "2026-09-22T04:07:23Z",
-          "publishedAt": "2026-08-23T04:07:23Z",
+          "expiresAt": "2026-09-29T09:22:11Z",
+          "publishedAt": "2026-08-30T09:22:11Z",
           "requires": {
             "catalog": {
-              "min": 20260823040723,
-              "max": 20260823040723
+              "min": 20260830092211,
+              "max": 20260830092211
             },
             "engine": {
-              "min": 20260823040723,
-              "max": 20260823040723
+              "min": 20260830092211,
+              "max": 20260830092211
             }
           }
         },
@@ -608,7 +610,7 @@
   "signatures": [
     {
       "keyId": "unlock-update-root-2026",
-      "value": "0ueQvX+aw5/FVD9fvpe4vEcrMSGg6ystvGcNplkQo+NKNjFIMZ+yDGuBGrnhEUIPGmD9STU2qr3QEELpWDChAQ=="
+      "value": "0cgpicsyk5tkohN94/vTrxD3atWVIDpIBAnI7ixoT/yIB5nqp1TJ/ldxuvdgqZAw3ktseLh3U2OICGYwzz4HAQ=="
     }
   ]
 }
